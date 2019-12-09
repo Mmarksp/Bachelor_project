@@ -1,0 +1,33 @@
+"witness"
+{
+	"base"		"coop"
+	"maxplayers"    "1"
+	"hasdifficulty"	"1"
+
+	"DisplayTitle"	"Witness"
+	"ShortDescription"	"No fun and games"
+	"Description"	"No harm will come to you nor to them (probably)"
+
+	"Image"		"maps/any"
+	"Author"	"Mmarksp"
+
+	convar
+	{
+		ai_talk_idle_enabled 0
+		boomer_exposed_time_tolerance 0
+		boomer_vomit_delay 55
+		gameinstructor_enable 0
+		director_short_finale 1
+		director_no_mobs 1
+		music_dynamic_on 0
+		z_allow_ai_to_use_abilities 0
+		z_destroy_on_attack 1
+		z_witch_anger_rate 0.01
+		z_witch_threat_hostile_range 1
+		z_witch_threat_normal_range 1
+		z_witch_personal_space 1
+		z_tank_attack_interval 0
+		z_tank_throw_interval 0
+		z_tank_speed 30
+	}
+}
